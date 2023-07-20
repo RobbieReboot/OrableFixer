@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<RegexProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Regex>^\(\((?&lt;typeName&gt;\w+)\)\(this\.Adapter\.SelectCommand\.Parameters</Regex>
+  <Input>((string)(this.Adapter.SelectCommand.Parameters</Input>
+  <Options>IgnoreCase Multiline IgnorePatternWhitespace</Options>
+  <FileName>C:\dev\OtherProjects\OrableFixer\OrableFixer\nullCheck2.express</FileName>
+  <ReplaceString />
+  <InputFilename />
+  <UpdateEventsEnabled>true</UpdateEventsEnabled>
+</RegexProject>

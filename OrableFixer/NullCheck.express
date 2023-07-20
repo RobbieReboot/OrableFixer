@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<RegexProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Regex>^\s*if\s*\(\(\(this\.Adapter\.SelectCommand\.Parameters\[(?&lt;paramId&gt;\d+)\]</Regex>
+  <Input>            if (((this.Adapter.SelectCommand.Parameters[34].Value == null) 
+</Input>
+  <Options>IgnoreCase Multiline IgnorePatternWhitespace</Options>
+  <FileName>C:\dev\OtherProjects\OrableFixer\OrableFixer\NullCheck.express</FileName>
+  <ReplaceString />
+  <InputFilename>file.txt</InputFilename>
+  <UpdateEventsEnabled>true</UpdateEventsEnabled>
+</RegexProject>

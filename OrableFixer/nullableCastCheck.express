@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RegexProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Regex>(?&lt;indentLevel&gt;\s*)(?&lt;varName&gt;\w+)\s*=\s*new\s*\w+::\w+\.\w+&lt;\w+&gt;\(\(\((?&lt;typeName&gt;\w+)\)\(this\.Adapter\.SelectCommand\.Parameters\[(?&lt;paramIndex&gt;\d+)\]\.Value\)\)\);
+</Regex>
+  <Input>                P_ERRCODE = new global::System.Nullable&lt;decimal&gt;(((decimal)(this.Adapter.SelectCommand.Parameters[5].Value)));
+</Input>
+  <Options>IgnoreCase Multiline IgnorePatternWhitespace</Options>
+  <FileName>C:\dev\OtherProjects\OrableFixer\OrableFixer\nullableCastCheck.express</FileName>
+  <ReplaceString />
+  <InputFilename />
+  <UpdateEventsEnabled>true</UpdateEventsEnabled>
+</RegexProject>
